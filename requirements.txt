@@ -1,0 +1,17 @@
+addict
+future
+lmdb
+numpy
+opencv-python
+Pillow
+pyyaml
+requests
+scikit-image
+scipy
+tb-nightly
+tqdm
+yapf
+torch==2.4.1
+torchvision==0.19.1
+matplotlib
+ptflops
