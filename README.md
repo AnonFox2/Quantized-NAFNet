@@ -15,13 +15,13 @@ NAFNet is a neural network architecture designed for image restoration tasks, in
 - **8-bit Quantization**: Maintains ~95% of the original accuracy while enabling efficient deployment on hardware with 8-bit computation
 
 ## Environment Setup
-
+### You will need `git`,`anaconda`, and `git lfs` to clone and run this code correctly
 To set up the environment, clone this repository and create a CONDA virtual environment:
 
 ```bash
 git clone https://github.com/AnonFox2/Quantized-NAFNet.git
 cd Quantized-NAFNet
-
+git lfs pull
 conda create -n quant python=3.9.19
 conda activate quant
 
