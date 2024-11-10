@@ -13,6 +13,8 @@ NAFNet is a neural network architecture designed for image restoration tasks, in
 
 - **Pruned Model**: A reduced-size model with approximately 75% fewer parameters and 16x faster inference speed
 - **8-bit Quantization**: Maintains ~95% of the original accuracy while enabling efficient deployment on hardware with 8-bit computation
+## DEMO Video
+[![DEMO](https://img.youtube.com/vi/kamGm8VTfcA/0.jpg)](https://www.youtube.com/watch?v=kamGm8VTfcA)
 
 ## Environment Setup
 ### You will need `git`,`anaconda`, and `git lfs` to clone and run this code correctly
@@ -27,6 +29,16 @@ conda activate quant
 
 pip install -r requirements.txt
 ```
+## For Running in colab follow the below steps to install
+```
+!git clone https://github.com/AnonFox2/Quantized-NAFNet.git
+%cd /content/Quantized-NAFNet
+!git lfs pull
+!pip install -r requirements.txt
+```
+### The code will work normally in colab as well just use '!python' instead of 'python' to run the commands. 
+```!python main.py --dataset_root datasets/ --mode val --weight fpw64_original_model.pth```
+## NOTE: the demo pop up comparison will not be functional in colab, you can view the processed image by opening the output file name.
 
 ## Model Validation
 
