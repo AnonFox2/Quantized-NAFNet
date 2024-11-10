@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Open `deblur.png` from the `Quantized-NAFNet` folder to view the output, you can provide any output name of your choice.
 
 ## Model Validation
-### All provided drive links are from the authours of the dataset.
+### All provided drive links are from the authors of the dataset.
 
 ### Validation Dataset Preparation (optional, committed in existing repo)
 1. Download validation data from [Google Drive](https://drive.google.com/file/d/1_WPxX6mDSzdyigvie_OlpI-Dknz7RHKh/view)
