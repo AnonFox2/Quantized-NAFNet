@@ -16,7 +16,7 @@ NAFNet is a neural network architecture designed for image restoration tasks, in
 ## DEMO Video
 [![DEMO](https://img.youtube.com/vi/kamGm8VTfcA/0.jpg)](https://www.youtube.com/watch?v=kamGm8VTfcA)
 
-## Environment Setup
+## Environment Setup For LINUX
 ### You will need `git`,`anaconda`, and `git lfs` to clone and run this code correctly
 To set up the environment, clone this repository and create a CONDA virtual environment:
 
@@ -39,6 +39,8 @@ pip install -r requirements.txt
 ### The code will work normally in colab as well just use '!python' instead of 'python' to run the commands. 
 ```!python main.py --dataset_root datasets/ --mode val --weight fpw64_original_model.pth```
 ## NOTE: the demo pop up comparison will not be functional in colab, you can view the processed image by opening the output file name.
+```!python test.py --input_img blurry.jpg --output_img deblur.png --weights fpw64_original_model.pth```
+Open `deblur.png` from the `Quantized-NAFNet` folder to view the output, you can provide any output name of your choice.
 
 ## Model Validation
 
